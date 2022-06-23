@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.div1 {
+    background-color: pink ;
+
+}
+
+.div2 {
+
+    background-color: green;
+    position: relative; /*<!--
+    position: static - свойство по умолчанию, элемент не позиционирован
+  
+    position: relative - относительное позиционирование; элемент остается в базовом потоке, но его можно двигать
+      top, bottom, left, rigth
+      top, left - приоритетные
+  
+      z-index - меняет порядок отображения слоев; чем выше индекс, тем "ближе" элемент к нам; 0-999, может принимать отрицательные значения
+    
+    position: absolute - абсолютное позиционирование; элемент вырывается из базового потока элементов. Применяются свойства top, bottom, left, rigth и z-index
+  -->
+  */
+}
+
+.div3 {
+    background-color: yellow;
+    position: relative;
+    
+}
+
+.div2_1 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color:blueviolet;
+
+    position: absolute; /*Обязательно прописать чтобы все элементы были относительно этой позиции(внутри этого квадрата)*/
+    
+}
+
+.div2_2 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color:blue;
+
+    position:absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.div3_1 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color:yellow;
+
+    position: absolute;
+    left: 33px;
+    top: 33px;
+
+}

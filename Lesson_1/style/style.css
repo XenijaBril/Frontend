@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: brown;
+}
+
+p{
+    padding: 15px;
+    margin: 15px 0;
+    border: 2px solid black
+}
+
+.biografie{
+    background-color: aquamarine;
+}
+.profession{
+    background-color: gold;
+}
+.story{
+    background-color: green;
+}
+
+#main{
+    background-color: blue;
+}

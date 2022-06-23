@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.post {
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid black; /*рамка*/
+    border-radius: 15px;
+    margin: 20px;
+    transition: background-color 0.5s, /*анимированное изменение цвета с заддержкой 5сек*/
+                border-color 0.5s,
+                heigt 0.5s cubic-bezier(0.4, 0.76, 0.76,-0.12);/*анимированное изменение из "инструментов разработчика"*/
+    transition-delay: 0.5s;/*анимированное изменение с задержкой курсора*/
+
+
+}
+.post:hover{  /*псевдокласс для анимации*/
+    color: bisque;
+    height: 200px;
+    border-color: transparent;/*прозрачный бортик, чтобы не дергался*/
+    box-shadow:5px 5px 10px black;/*тень*/
+} 
+    
+.post:hover p{
+    color: green;
+}

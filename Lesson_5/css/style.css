@@ -1,0 +1,28 @@
+* {
+    margin: 0;    /*Необходимо всегда обнулять!!!*/
+    padding: 0;
+}
+
+.item {
+    border: 1px solid black ;
+    width: 70px;
+    height: 70px;
+    text-align: center; /*Центровать текст*/
+    line-height: 70px;  /*Выравнивание*/
+    margin: 10px;       /*Выравнивание*/
+}
+.block_1 {
+    height: 300px;
+    display: flex; /*Включаем чтобы flex, чтобы выстроить блоки! без включения не сработает!!!*/
+    /*flex-direction: row ; /*Выстраимаем блоки в ряд (row) (по оси x) или в колонку (column)(по оси y) */
+    /*justify-content: space-around; /*Выравнивание блоков по центру center, вправа end, влево left; */ 
+    /*space - around/between - блоки на растоянии!*/   
+    /*align-items:end; выравнивание перпендикулярно основной оси*/
+    flex-wrap: wrap; /*Перенос эленментов на следующую строку, при уменьшении или увел страницы*/
+
+}
+.block_2 {
+    display: flex;
+    justify-content: space-between;  
+}
+
