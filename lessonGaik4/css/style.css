@@ -1,0 +1,37 @@
+.main{
+    position:absolute;
+    width: 100px;;
+    height: 100px;
+    background-color: black;
+   }
+.main1{
+    top: 0;
+    left: 0;
+}
+.main2{
+    top: 100px;
+    left: 100px;
+}
+.main3{
+    top: 0px;
+    right: 0px;
+}
+.main4{
+    top: 100px;
+    right: 100px;
+}
+.main5{
+    bottom: 0px;
+    left: 0;
+}
+.main6{
+    bottom: 100px;
+    left: 100px;
+}.main7{
+    bottom: 0px;
+    right: 0px;
+}
+.main8{
+    bottom: 100px;
+    right: 100px;
+}
