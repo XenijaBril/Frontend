@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--        ТЕМА:  <input>
+                 
+Элемент HTML <input> используется для создания интерактивных элементов управления в веб-формах 
+для получения данных от пользователя; в зависимости от устройства и user agent, доступен широкий 
+выбор типов входных данных и виджетов управления. Из-за огромного количества 
+возможных сочетаний типов ввода и атрибутов это один из самых мощных и сложных элементов HTML. -->
+</head>
+<body>
+    <form>
+
+        <!--
+        type - определяет назначение инпута;
+        name - определяет к какой группе относится инпут (для работы c формой в JS);
+        value - определяет передаваемое значение (для работы c формой в JS);
+      -->
+
+
+        <label>
+            <p>Введите емайл:</p>
+            <input type="text" placeholder="Email" class="InputText">  <!-- placeholder="Email"-как подсказка (формат ввода данных)-->
+        </label>
+        
+        <label>
+            <p>Введите пароль:</p> 
+            <input type="text" placeholder="Password" id="Password" class="InputText">
+        </label>
+
+          <!-- 
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Password">
+        <button type="submit">Отправить</button> -->
+        
+        <br><br>
+
+         <textarea name="" id="" cols="30" rows="10"></textarea> <!--рамка-место для ввода текста
+                                                                cols="30" rows="10" размеры рамки,
+                                                                по умолчанию пользователь может менять 
+                                                                размер рамки. 
+                                                                но лучше прописывать через стили -->
+
+        <br><br>
+
+        <p>Что я хочу изучать?</p>
+        <label for="">
+            <input type="checkbox"> Javascript
+        </label>
+        <label for="">
+            <input type="checkbox"> Python
+        </label>
+        <label for="">
+            <input type="checkbox"> Java
+        </label>
+        
+        <br><br>
+
+        <p>В каких городу я живу?</p>
+
+        <label>
+            <input type="radio" name="citi" value="berlin"> Берлин
+        </label>
+        <label>
+            <input type="radio" name="citi" value="paris"> Париж
+        </label>
+        <label>
+            <input type="radio" name="citi" value="yerevan"> Ереван
+        </label>
+
+        <br><br>
+
+        <p>На какой ОС хочу работать?</p>
+        <label for="">
+            <input type="checkbox" name="operating_system"> Windows
+        </label>
+        <label for="">
+            <input type="checkbox" name="operating_system"> Linux
+        </label>
+        <label for="">
+            <input type="checkbox" name="operating_system"> Ubuntu
+        </label>
+
+        <br><br>
+
+        <p>В каких городах я жил?</p>
+        <label for="">
+            <input type="checkbox" name="citi" value="berlin"> Берлин
+        </label>
+        <label for="">
+            <input type="checkbox" name="citi" value="paris"> Париж
+        </label>
+        <label for="">
+            <input type="checkbox" name="citi" value="yerevan"> Ереван
+        </label>
+
+        <br><br>
+
+        <button type="submit">Отправить</button> -->
+
+
+
+    </form>
+    
+</body>
+</html>

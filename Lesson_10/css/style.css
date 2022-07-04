@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    border: 1px solid gray;
+    width: 350px;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 20px; /* закругленная рамка */
+
+     /*Выстраиваем друг под другом */
+    display: flex;  /* отключаем */
+    flex-direction: column;
+    justify-content: center;  /* по вертикали */
+    align-items: center;  /* по горизонтали, */
+
+    font-family: Arial, Helvetica, sans-serif; /*шрифт*/
+    position: relative; /* позиционирование (для крестика) */
+}
+
+.form_title {
+    width: 100%; /*or 360px */
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+.form_input {
+    
+    width: 306px;
+    margin: 2px 0;
+    padding: 14px 18px;
+    border-radius:  12px;
+    border: 1px solid #CFD8DC
+
+}
+ .form_input:focus {    /*псевдокласс, меняется цвет если нажимаешь на элемент*/
+    outline: none;
+    border-color: #FFE44D;
+
+
+}
+
+
+.form_btn {
+    width: 100%;
+    margin: 2px 0;
+    padding: 14px 24px;
+    border-radius: 55px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.submit_btn {
+    background-color: #FFE44D;
+    border: 1px solid transparent;
+}
+.redirect_btn {
+    background-color: white;
+    border: 1px solid #CFD8DC;
+}
+
+.form_info_text {
+    margin: 15px 0;
+    color: gray;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.form_crocs {
+    font-size: 20px;
+    position: absolute; /* позиционирование крестика */
+    top: 20px;
+    right: 20px;
+
+
+}

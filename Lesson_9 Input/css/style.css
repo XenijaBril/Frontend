@@ -1,0 +1,12 @@
+textarea{
+    resize: none; /*  размер рамки */
+
+}
+.InputText:focus{ /*псевдокласс focus, (как hover (hover изменяется, при наведении курсора))
+    но только focus изменяется когда начинаешь работать с элементом*/
+    outline: none;
+    border-color: red;
+    color: blue;
+    background-color: aqua;
+
+}
