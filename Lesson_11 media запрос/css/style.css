@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.text {
+    font-size: 24px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+/* Медия запросы нужны для того чтобы приложение 
+подстраивалось под параметры устройства */
+/* 
+1. Тип носителя - это например screen, print.. и тп
+2. Логический оператор - and, "," , not.. и тп
+3. Медиа функция - max-width, min-width.. и тп
+ */
+
+@media screen and (max-width: 640px) and (min-width: 300px) {
+.text {
+    width: 200px;
+    color: red;
+    border-color: orange;
+}
+
+    
+}
+@media print {
+.text {
+    color: green;
+
+    }
+}
+
+
