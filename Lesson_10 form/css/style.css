@@ -75,3 +75,11 @@
 
 
 }
+.form_resset_password_text {
+    margin: 15px 0;
+    color: gray;
+    font-size: 13px;
+    padding-left: 10px;
+    width: 100%;
+    text-align: end;
+}

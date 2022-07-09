@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ .div_container {
+    display: grid;
+    /* grid-template-columns: 50px 50px; /*сколько нужно колонок, столько раз прописываем
+    значение для двух колонок - 50px 50px; */ /**/
+    /*grid-template-columns: 1fr 2fr; fr-работает только с grid при движении страницы 
+    двигается,увеличивается и уменьшается, например как 1 к 2*/
+    /* grid-template-columns: repeat(3, 1fr) repeat(2, 100px) repeat(1, 3fr); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5px;
+
+} 
+
+.grid_item {
+
+    border: 1px dashed black;
+    padding: 20px;
+    text-align: center;
+
+}
